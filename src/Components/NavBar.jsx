@@ -16,9 +16,9 @@ const NavBar = ({ isDarkMode, toggleTheme }) => {
       {/* darkmode button mein */}
       <button
         onClick={toggleTheme}
-        className={`px-4 py-2 rounded font-bold shadow hover:bg-gray-200 ${
+        className={`px-4 py-2 rounded font-bold shadow  hover:bg-gray-200 ${
           isDarkMode
-            ? "bg-[black] text-white "
+            ? "bg-[black] text-white hover:bg-[#A59D84] hover:border-black border hover:text-black"
             : "bg-white text-[#FF4545]"
         }`}
       >
